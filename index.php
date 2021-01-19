@@ -252,43 +252,42 @@
         <div class="container container-fluid footer">
           <div class="row justify-content-center">
             <div class="col col-xl-3 col-lg-5 col-md-12 col-sm-12 col-12">
-              <h4 class="ps-4 pt-4 pb-1">Find Us</h4>
-              <div class="map clearfix ps-4">
+              <h4 class="pt-4">Find Us</h4>
+              <div class="map clearfix">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1792.9044026033764!2d87.31555235805091!3d22.320339919170205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d441bd5dd36ff%3A0xe6a8debfe052c0aa!2sTeamKART%20Bay!5e0!3m2!1sen!2sin!4v1609521595560!5m2!1sen!2sin"
                   frameborder="0"
                   style="border: 0"
-                  aria-hidden="false"
-                  tabindex="0"
-                  class="img-fluid mx-auto"
                 ></iframe>
               </div>
             </div>
             <div class="row col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-              <div class="col col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
-                <h4 class="ps-2 pt-4 pb-1">Contacts</h4>
-                <p class="manager-contact mb-4 ps-3">
+              <div
+                class="col col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12 ps-0"
+              >
+                <h4 class="pt-4 pb-1">Contacts</h4>
+                <p class="manager-contact mb-4">
                   Swarnim Raj <br />
                   +91- 91241247125
                 </p>
-                <p class="manager-contact mt-4 ps-3">
+                <p class="manager-contact mt-4">
                   Keshav Bagri<br />
                   +91- 91241247125
                 </p>
-                <i class="fas fa-phone-alt d-block mt-4 px-3 pt-1"
+                <i class="fas fa-phone-alt d-block mt-4 pt-1"
                   ><span class="ps-2">+91-987654321</span></i
                 >
-                <i class="fas fa-envelope d-block mt-2 px-3"
+                <i class="fas fa-envelope d-block mt-2"
                   ><span class="ps-2">kart@team.com</span></i
                 >
-                <i class="fas fa-map-marker-alt d-block mt-2 ps-3">
+                <i class="fas fa-map-marker-alt d-block mt-2">
                   <span class="ps-2">TeamKART Bay, Behind Nehru Musem</span>
                 </i>
               </div>
-              <div class="col col-xl-6 col-lg-8 col-md-8 col-sm-12 col-12">
-                <h4 class="ps-2 pt-4 pb-1">Newsletter</h4>
+              <div class="col col-xl-6 col-lg-8 col-md-8 col-sm-12 col-12 ps-0">
+                <h4 class="pt-4 pb-1">Newsletter</h4>
 
-                <div class="input-group rounded-0 ps-3">
+                <div class="input-group rounded-0">
                   <input
                     type="text"
                     class="form-control"

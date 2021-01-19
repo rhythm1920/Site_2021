@@ -47,10 +47,10 @@ h6 {
   transition: 1s;
 }
 
-.car-image:hover .car-actual-image {
+/* .car-image:hover .car-actual-image {
   opacity: 1;
   transition: 1s;
-}
+} */
 
 /* .flip-card:active .flip-card-base {
   transform: rotateY(180deg);

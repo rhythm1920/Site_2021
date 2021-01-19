@@ -17,23 +17,18 @@
   left: 0;
   top: 0;
   height: 100%;
-  width: 400px;
+  width: 0;
   z-index: 1;
-  overflow: hidden;
   text-align: center;
-  display: flexbox;
-  justify-content: center;
-  align-items: center;
   background-color: black;
+  overflow: hidden;
 }
 
 .sidebar-in {
-  position: absolute;
-  width: 400px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: black;
+  position: relative;
+  width: 320px;
+  margin-top: 100px;
+  background-color: transparent;
   height: auto;
 }
 
@@ -54,10 +49,10 @@
   position: absolute;
   z-index: -1;
   height: 2.5em;
-  width: 0px;
+  width: 0;
   background-color: rgb(240, 0, 0);
-  margin-left: 100px;
   transition: 0.5s;
+  margin-left: 60px;
 }
 
 .sidebar-in a:hover::before {
@@ -85,7 +80,7 @@
 }
 
 .main {
-  margin-left: 400px;
+  margin-left: 0;
   background-color: #eaeaea;
   min-width: 100%;
 }
@@ -134,11 +129,11 @@ h6 {
 
 .form-group input {
   background-color: rgb(214, 219, 223);
-  min-width: 300px;
+  min-width: 280px;
 }
 .form-group textarea {
   background-color: rgb(214, 219, 223);
-  min-width: 300px;
+  min-width: 280px;
 }
 
 .footer {
@@ -182,8 +177,9 @@ h6 {
 }
 
 .map iframe {
+  margin: 0;
   height: 250px;
-  width: 350px;
+  width: 95%;
   background-color: #eaeaea;
 }
 
@@ -228,3 +224,26 @@ h6 {
     height: 100px;
   }
 } */
+@media only screen and (max-width: 576px) {
+  .main h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: center;
+  }
+  .hr {
+    margin: 0 auto;
+    margin-bottom: 2em;
+  }
+
+  .footer h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: left;
+  }
+}

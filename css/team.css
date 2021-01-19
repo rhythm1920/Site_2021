@@ -1,9 +1,15 @@
 #team h3 {
   color: black;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
 }
 
 #team h4 {
   color: black;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
 }
 
 .media {
