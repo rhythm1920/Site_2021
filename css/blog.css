@@ -1,0 +1,20 @@
+.blog {
+  padding: 0 !important;
+  width: 300px;
+  background-color: transparent !important;
+  border: 0 !important;
+}
+
+.blog h5 {
+  color: black;
+}
+
+.blog img:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.read-more {
+  width: 40%;
+}

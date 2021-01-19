@@ -1,0 +1,33 @@
+.img {
+  height: 250px;
+  width: 250px;
+}
+
+.img img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 250px;
+  max-height: 250px;
+  opacity: 1;
+}
+
+.img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.img:hover > img {
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+#nalco {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 310px;
+  max-height: 310px;
+}

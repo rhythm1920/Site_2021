@@ -1,0 +1,61 @@
+#team h3 {
+  color: black;
+}
+
+#team h4 {
+  color: black;
+}
+
+.media {
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+}
+
+.media img {
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+}
+
+.media:hover > img {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.media:hover > .team-contact a {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.team-contact a {
+  position: relative;
+  width: 250px;
+  margin-top: -140px;
+  z-index: 2;
+  opacity: 0;
+}
+
+.team-contact a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.close-button {
+  height: 0.5em !important;
+  width: 0.5em !important;
+}
+
+.form-group input {
+  min-width: 250px !important;
+}
+
+.form-group textarea {
+  min-width: 250px !important;
+}
+
+.send-button {
+  position: relative;
+  float: right !important;
+}
