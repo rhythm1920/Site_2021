@@ -85,6 +85,15 @@
   min-width: 100%;
 }
 
+.top-slider {
+  background-color: white;
+  height: auto;
+}
+
+.top-slider img {
+  max-height: 600px;
+}
+
 .main p {
   font-family: "Roboto", sans-serif;
 }
@@ -184,7 +193,7 @@ h6 {
 }
 
 #footer-links {
-  font-size: 1em;
+  font-size: 1.1rem;
   color: grey;
 }
 
@@ -245,5 +254,23 @@ h6 {
   h5,
   h6 {
     text-align: left;
+    padding-left: 1rem;
+  }
+  .footer .map {
+    padding-left: 1rem;
+  }
+  .manager-contact {
+    text-align: left !important;
+    padding-left: 1rem;
+  }
+  .footer i {
+    padding-left: 1rem;
+  }
+  .footer .input-group {
+    padding-left: 1rem;
+  }
+
+  .footer hr {
+    margin: 2rem auto !important;
   }
 }

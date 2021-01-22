@@ -42,6 +42,95 @@
       /> -->
 
       <div class="jumbotron">
+        <div class="container-fluid p-0 top-slider">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+              ></li>
+              <li
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./images/gallery/team1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/gallery/team1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/gallery/index-cover.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Praesent commodo cursus magna, vel scelerisque nisl
+                    consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleCaptions"
+              role="button"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleCaptions"
+              role="button"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+        </div>
         <h1 class="text-center">TITLE SPONSOR</h1>
         <hr class="hr mx-auto" />
         <div class="container container-fluid">
@@ -325,7 +414,7 @@
       </div>
 
       <footer>
-        <div class="container container-fluid footer">
+        <div class="container container-fluid footer pb-4">
           <div class="row justify-content-center">
             <div class="col col-xl-3 col-lg-5 col-md-12 col-sm-12 col-12">
               <h4 class="pt-4">Find Us</h4>
@@ -342,11 +431,11 @@
                 class="col col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12 ps-0"
               >
                 <h4 class="pt-4 pb-1">Contacts</h4>
-                <p class="manager-contact mb-4">
+                <p class="manager-contact mb-2">
                   Swarnim Raj <br />
                   +91- 91241247125
                 </p>
-                <p class="manager-contact mt-4">
+                <p class="manager-contact mb-2">
                   Keshav Bagri<br />
                   +91- 91241247125
                 </p>
@@ -356,7 +445,7 @@
                 <i class="fas fa-envelope d-block mt-2"
                   ><span class="ps-2">kart@team.com</span></i
                 >
-                <i class="fas fa-map-marker-alt d-block mt-2">
+                <i class="fas fa-map-marker-alt d-block mt-2 pb-2">
                   <span class="ps-2">TeamKART Bay, Behind Nehru Musem</span>
                 </i>
               </div>
@@ -375,7 +464,7 @@
                       class="btn btn-outline-secondary mx-1 btn-large"
                       type="button"
                     >
-                      <i class="fas fa-paper-plane"></i>
+                      <i class="fas fa-paper-plane ps-0"></i>
                     </button>
                   </div>
                 </div>
@@ -384,25 +473,28 @@
             <div
               class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 social-media"
             >
-              <hr style="width: 80%; margin: 1em auto" />
-              <div
-                class="container container-fluid mt-0 mb-4"
-                id="footer-links"
-              >
-                <a href="./index.html" id="footer-links">Home</a>
-                <a href="./team.html" id="footer-links">Team</a>
-                <a href="./cars.html" id="footer-links">Cars</a>
-                <a href="./index.html#contact" id="footer-links">Contact</a>
-                <a href="./sponsers.html" id="footer-links">Sponsors</a>
-                <a href="./gallery.html" id="footer-links">Gallery</a>
-                <a href="./blog.html" id="footer-links">Blog</a>
+              <hr style="width: 80%; margin: 1rem auto" />
+              <div class="container container-fluid mt-0 mb-2 p-2">
+                <a href="./index.html" id="footer-links" class="p-2">Home</a>
+                <a href="./team.html" id="footer-links" class="p-2">Team</a>
+                <a href="./cars.html" id="footer-links" class="p-2">Cars</a>
+                <a href="./index.html#contact" id="footer-links" class="p-2"
+                  >Contact</a
+                >
+                <a href="./sponsers.html" id="footer-links" class="p-2"
+                  >Sponsors</a
+                >
+                <a href="./gallery.html" id="footer-links" class="p-2"
+                  >Gallery</a
+                >
+                <a href="./blog.html" id="footer-links" class="p-2">Blog</a>
               </div>
               <p class="mb-1">Copyright ©2020 | TeamKART</p>
-              <a href=""><i class="fab fa-facebook-f"></i></a>
-              <a href=""><i class="fab fa-instagram"></i></a>
-              <a href=""><i class="fab fa-youtube"></i></a>
-              <a href=""><i class="fab fa-linkedin-in"></i></a>
-              <a href=""> <i class="fas fa-envelope"></i></a>
+              <a href="" class="px-3"><i class="fab fa-facebook-f p-0"></i></a>
+              <a href="" class="px-3"><i class="fab fa-instagram p-0"></i></a>
+              <a href="" class="px-3"><i class="fab fa-youtube p-0"></i></a>
+              <a href="" class="px-3"><i class="fab fa-linkedin-in p-0"></i></a>
+              <a href="" class="px-3"><i class="fas fa-envelope p-0"></i></a>
             </div>
           </div>
         </div>
