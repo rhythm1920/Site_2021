@@ -19,6 +19,23 @@
   width: 480px;
 }
 
+.gallery-box {
+  background-color: transparent !important;
+}
+
+.gallery-box img {
+  padding: 0.5em;
+}
+
+.gallery-box img:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.card h4 {
+  color: black !important;
+}
+
 @media only screen and (max-width: 576px) {
   .gallery-image {
     width: 300px;

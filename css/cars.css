@@ -14,7 +14,7 @@
 }
 .flip-card h5,
 h6 {
-  color: black;
+  color: black !important;
 }
 
 .flip-card-base {
@@ -47,10 +47,25 @@ h6 {
   transition: 1s;
 }
 
-/* .car-image:active .car-actual-image {
+.reveal {
   opacity: 1;
   transition: 1s;
-} */
+}
+
+.information {
+  padding-top: 0;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.car-image:active .car-actual-image {
+  opacity: 1;
+  transition: 1s;
+}
+
+li {
+  margin-left: 0;
+}
 
 /* .flip-card:active .flip-card-base {
   transform: rotateY(180deg);
@@ -59,10 +74,6 @@ h6 {
 .flipper {
   transform: rotateY(180deg);
 }
-
-/* .turner {
-  transform: rotateY(-180deg);
-} */
 
 .front,
 .back {
