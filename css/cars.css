@@ -58,10 +58,10 @@ h6 {
   font-size: 14px;
 }
 
-.car-image:active .car-actual-image {
+/* .car-image:active .car-actual-image {
   opacity: 1;
   transition: 1s;
-}
+} */
 
 li {
   margin-left: 0;
