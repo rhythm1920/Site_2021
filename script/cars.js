@@ -16,7 +16,7 @@ cars.forEach((car) => {
     $(`${car} > .flip-card-base`).toggleClass("flipper");
   });
 
-  $(`${car} .car-image`).on("click touchstart", () => {
+  $(`${car} .car-image`).click(() => {
     $(`${car} .car-actual-image`).toggleClass("show-car");
   });
 });
