@@ -16,18 +16,21 @@
   position: fixed;
   left: 0;
   top: 0;
-  height: 100%;
+  bottom: 0 !important;
   width: 0;
+  height: 100vh !important;
   z-index: 1;
   text-align: center;
   background-color: black;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .sidebar-in {
   position: relative;
   width: 320px;
-  margin-top: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: transparent;
   height: auto;
 }
@@ -80,6 +83,7 @@
 }
 
 .main {
+  position: relative;
   margin-left: 0;
   background-color: #eaeaea;
   min-width: 100%;
@@ -234,9 +238,10 @@ h6 {
   }
 } */
 @media only screen and (max-width: 576px) {
-  .sidebar {
-    height: 100%;
+  body {
+    overflow: auto;
   }
+
   .main h1,
   h2,
   h3,
