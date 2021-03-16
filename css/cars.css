@@ -114,3 +114,8 @@ li {
 .flip-card ::-webkit-scrollbar-thumb:hover {
   background: rgb(167, 167, 167);
 }
+
+.table-width {
+  width: 97% !important;
+  margin: 0 auto;
+}

@@ -9,7 +9,7 @@
 
 .gallery-image:hover {
   box-shadow: 10px 10px 5px rgb(143, 142, 142);
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: 0.3s;
 }
 
