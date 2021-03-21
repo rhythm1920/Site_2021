@@ -12,6 +12,10 @@
   text-align: center;
 }
 
+.aero-div {
+  width: 90% !important;
+}
+
 .media {
   height: 200px;
   width: 200px;

@@ -102,6 +102,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+.cover-image img {
+  object-fit: cover;
+}
+
 .fa-bars {
   color: black;
   position: fixed;

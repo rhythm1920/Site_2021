@@ -5,6 +5,7 @@
   border: 10px solid black;
   transition: 0.3s;
   padding-top: 0;
+  box-shadow: 6px 6px 2px rgb(143, 142, 142);
 }
 
 .gallery-image:hover {
