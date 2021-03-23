@@ -11,6 +11,10 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script
       src="https://kit.fontawesome.com/1305f8f706.js"
@@ -33,6 +37,21 @@
   </head>
 
   <body>
+    <div class="loader-bg">
+      <div class="preloader text-center">
+        <img src="https://img.icons8.com/android/96/000000/wheel.png" />
+        <div class="progress">
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
+            role="progressbar"
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="width: 100%"
+          ></div>
+        </div>
+      </div>
+    </div>
     <div class="main">
       <i class="fa fa-bars close mx-1 my-1"></i>
       <!-- <img
@@ -151,7 +170,7 @@
         <hr class="hr mx-auto" />
         <div class="container container-fluid">
           <div class="row">
-            <div class="col-xl-6 col-md-12 py-4">
+            <div class="col-xl-6 col-md-6 py-4">
               <!-- <img src="./images/sponsors/ceat.png" alt="ceat" class="mx-auto d-block img-fluid mt-5"> -->
               <div class="img mx-auto">
                 <img

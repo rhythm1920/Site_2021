@@ -12,6 +12,39 @@
   font-style: normal;
 }
 
+.loader-bg {
+  position: fixed;
+  background-color: #eaeaea !important;
+  height: 100%;
+  width: 100%;
+}
+
+.preloader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+#loading {
+  color: black;
+  font-family: "Fredoka One", cursive;
+}
+
+.preloader img {
+  animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .sidebar {
   position: fixed;
   left: 0;
@@ -87,6 +120,7 @@
   margin-left: 0;
   background-color: #eaeaea;
   min-width: 100%;
+  display: none;
 }
 
 .top-slider {
@@ -120,12 +154,7 @@
   transition: 0.5s;
 }
 
-.main h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.main h1 {
   font-family: "lemon_milkmedium";
   color: black;
   padding: 2em 2em 0 2em;
