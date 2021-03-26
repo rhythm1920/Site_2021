@@ -76,6 +76,16 @@ h2 {
   float: right !important;
 }
 
+.members h5 {
+  color: black;
+  text-align: center;
+  padding: 0;
+}
+
+.members h4 {
+  font-family: "lemon_milkmedium" !important;
+}
+
 /* @media only screen and (max-width: 576px) {
   .media {
     height: 200px;
