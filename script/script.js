@@ -3,6 +3,7 @@ let toggle = true;
 $(window).on("load", function () {
   $(".loader-bg").hide();
   $(".main").show();
+
   $(".close").click(function () {
     if (toggle) {
       toggle = !toggle;
@@ -24,9 +25,23 @@ $(window).on("load", function () {
   });
 });
 
-// console.log(toggle);
+const check = setInterval(function () {
+  if (window.location.hash === "#contact") {
+    $(".sidebar").animate({
+      width: "0",
+    });
+    $(".main").animate({
+      opacity: 1,
+    });
+    toggle = !toggle;
+    $("body, html").animate(
+      {
+        scrollTop: $("#contact").offset().top,
+      },
+      100,
+      "linear"
+    );
 
-// $(".close").click(function () {
-//   $(".main").toggleClass("close1");
-//   $(".sidebar").toggleClass("close2");
-// });
+    clearInterval(check);
+  }
+}, 200);
