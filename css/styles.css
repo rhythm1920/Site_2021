@@ -50,6 +50,10 @@ body {
   }
 }
 
+.tklogo {
+  height: 100px;
+}
+
 .sidebar {
   position: fixed;
   left: 0;
