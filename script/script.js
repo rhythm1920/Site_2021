@@ -45,3 +45,22 @@ const check = setInterval(function () {
     clearInterval(check);
   }
 }, 200);
+
+$("#target_form").submit(function (e) {
+  var form_data = $(this).serializeArray();
+  var send_data = {
+    fName: form_data[0].value,
+    subject: form_data[2].value,
+    Message: form_data[3].value,
+  };
+  emailjs.init("USER_ID");
+  emailjs.send("SERVICE_ID", "TEMPLATE_ID", send_data).then(
+    function (response) {
+      console.log("SUccess");
+    },
+    function (error) {
+      console.log(error);
+    }
+  );
+  e.preventDefault();
+});

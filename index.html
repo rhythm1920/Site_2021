@@ -24,6 +24,10 @@
       src="https://kit.fontawesome.com/1305f8f706.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
     <title>TeamKART</title>
     <div class="sidebar">
       <a href="#"><i class="fas fa-arrow-left close"></i></a>
@@ -61,20 +65,16 @@
 
     <div class="main">
       <i class="fa fa-bars close mx-1 my-1"></i>
+      <div class="container-fluid p-0">
+        <img src="./images/gallery/index-cover.jpg" alt="" class="img-fluid" />
+      </div>
       <div class="jumbotron">
-        <div class="container-fluid p-0">
-          <img
-            src="./images/gallery/index-cover.jpg"
-            alt=""
-            class="img-fluid"
-          />
-        </div>
         <h1>ABOUT US</h1>
         <hr class="hr" />
         <div class="container container-fluid">
           <div class="row">
-            <div class="col-xl-7">
-              <p class="px-3 fs-6 about h-100">
+            <div class="col-xl-7 p-3">
+              <p class="fs-6 about">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Nulla porttitor massa id neque. Pellentesque eu tincidunt tortor
@@ -84,8 +84,14 @@
                 consequat semper viverra nam libero. Adipiscing tristique risus
                 nec feugiat in fermentum posuere urna nec.
               </p>
+              <a
+                href="https://en.wikipedia.org/wiki/Team_KART"
+                class="btn btn-outline-danger"
+                target="_blank"
+                >Know More</a
+              >
             </div>
-            <div class="col-xl-5 px-3">
+            <div class="col-xl-5 px-3 py-3">
               <img src="./images/team1.jpg" alt="about-us" class="img-fluid" />
             </div>
           </div>
@@ -140,24 +146,27 @@
         <div class="container container-fluid p-3 mb-3 clearfix">
           <div class="row">
             <div class="col-xl-4 col-lg-6 pb-4">
-              <form class="col-12">
+              <form class="col-12" id="target_form" method="GET">
                 <div class="form-group">
                   <input
                     type="text"
                     class="form-control rounded-0 mb-2 border-0"
                     id="Full Name"
+                    name="fName"
                     placeholder="Full Name"
                   />
                   <input
                     type="email"
                     class="form-control rounded-0 mb-2 border-0"
                     id="Email-id"
+                    name="email"
                     placeholder="Email-id"
                   />
                   <input
                     type="text"
                     class="form-control rounded-0 mb-2 border-0"
                     id="Subject"
+                    name="subject"
                     placeholder="Subject"
                   />
                   <textarea

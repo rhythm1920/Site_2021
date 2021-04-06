@@ -14,12 +14,6 @@
   color: black;
 }
 
-.blog img:hover {
-  opacity: 0.7;
-  transition: 0.5s;
-  cursor: pointer;
-}
-
 .read-more {
   width: 40%;
 }

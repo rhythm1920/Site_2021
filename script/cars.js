@@ -15,8 +15,4 @@ cars.forEach((car) => {
   $(`${car} .back`).click(() => {
     $(`${car} > .flip-card-base`).toggleClass("flipper");
   });
-
-  $(`${car} .car-image`).hover(() => {
-    $(`${car} .car-actual-image`).toggleClass("show-car");
-  });
 });
