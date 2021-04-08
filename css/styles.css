@@ -55,6 +55,52 @@ body {
   height: 100px;
 }
 
+.mobile-cover {
+  display: none;
+}
+
+.parallax {
+  background-image: url("../images/index-cover.jpg");
+  height: 740px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.parallax a {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 20px 0;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.parallax .fa-arrow-down {
+  font-size: 2.2em;
+}
+
+.parallax a:hover > .fa-arrow-down {
+  animation: move-down 0.5s infinite alternate;
+}
+
+@keyframes move-down {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(10px);
+  }
+}
+
+.parallax a:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 .sidebar {
   position: fixed;
   left: 0;
@@ -179,8 +225,48 @@ body {
   margin-bottom: 2em;
 }
 
+/* .teams::after {
+  display: block;
+  content: "TEAMS";
+  font-size: 2rem !important;
+  margin-top: -2em;
+  transition: 0.5s;
+  background-color: cyan;
+}
+
+.teams:hover::after {
+  display: block;
+  transform: translateY(2em);
+} */
+
 .info-icons {
+  position: relative;
   font-size: 5em;
+  z-index: 2;
+  text-align: center;
+}
+
+.info-icons h2 {
+  font-size: 3rem;
+  padding: 0;
+  color: black;
+  background-color: #eaeaea;
+  text-align: center;
+}
+
+.info-icons h3 {
+  position: relative;
+  color: black;
+  font-size: 1.5rem;
+  margin-top: -2em;
+  z-index: -1;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.info-icons:hover > h3 {
+  transform: translateY(2em);
+  color: black;
 }
 
 .form-group input {
@@ -287,6 +373,15 @@ h6 {
 @media only screen and (max-width: 576px) {
   body {
     overflow: auto;
+    height: 100%;
+  }
+
+  .parallax {
+    display: none;
+  }
+
+  .mobile-cover {
+    display: inherit;
   }
 
   .main h1,
@@ -296,6 +391,12 @@ h6 {
   h5,
   h6 {
     text-align: center;
+  }
+  .info-icons {
+    position: relative;
+    font-size: 5em;
+    z-index: 2;
+    text-align: center !important;
   }
   .hr {
     margin: 0 auto;

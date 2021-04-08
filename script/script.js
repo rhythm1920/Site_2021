@@ -22,29 +22,58 @@ $(window).on("load", function () {
       });
       toggle = !toggle;
     }
-  });
-});
 
-const check = setInterval(function () {
-  if (window.location.hash === "#contact") {
-    $(".sidebar").animate({
-      width: "0",
-    });
-    $(".main").animate({
-      opacity: 1,
-    });
-    toggle = !toggle;
-    $("body, html").animate(
+    if (!toggle) {
+      $("#contactButton").click(function () {
+        $(".sidebar").animate({
+          width: "0",
+        });
+        $(".main").animate({
+          opacity: 1,
+        });
+        toggle = !toggle;
+      });
+    }
+  });
+
+  // console.log(window.location.hash);
+  // console.log($(window).scrollTop());
+
+  if (window.location.hash === "#contact" && $(window).scrollTop() === 0) {
+    $("html, body").animate(
       {
         scrollTop: $("#contact").offset().top,
       },
-      100,
-      "linear"
+      100
     );
-
-    clearInterval(check);
+    // console.log("scroll down");
   }
-}, 200);
+
+  // if (window.location.hash === "#contact" && toggle === false) {
+  //   console.log("close");
+  // }
+});
+
+// const check = setInterval(function () {
+//   if (window.location.hash === "#contact") {
+//     $(".sidebar").animate({
+//       width: "0",
+//     });
+//     $(".main").animate({
+//       opacity: 1,
+//     });
+//     toggle = !toggle;
+//     $("body, html").animate(
+//       {
+//         scrollTop: $("#contact").offset().top,
+//       },
+//       100,
+//       "linear"
+//     );
+
+//     clearInterval(check);
+//   }
+// }, 200);
 
 $("#target_form").submit(function (e) {
   var form_data = $(this).serializeArray();
