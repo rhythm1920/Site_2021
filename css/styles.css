@@ -18,6 +18,13 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "pirulen";
+  src: url("../fonts/pirulen_rg-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .loader-bg {
   position: fixed;
   background-color: #eaeaea !important;
@@ -53,6 +60,43 @@ body {
 
 .tklogo {
   height: 100px;
+}
+
+.cover-text {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 7.5rem;
+  font-family: "pirulen";
+  color: white;
+}
+
+#kart-text {
+  color: #f10101;
+}
+
+#team-text,
+#kart-text,
+.parallax p {
+  animation: cover-animation calc(var(--order) * 1000ms) ease;
+}
+
+.parallax p {
+  font-family: "pirulen" !important;
+  margin: 0;
+  padding-right: 3rem;
+  text-align: right;
+  font-size: 3rem;
+  color: rgb(248, 248, 248);
+}
+
+@keyframes cover-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .mobile-cover {
@@ -348,6 +392,15 @@ h6 {
 
 .fa-paper-plane {
   color: white;
+}
+
+#newsletter_form input {
+  width: 85%;
+  display: inline !important;
+}
+
+#newsletter_form button {
+  display: inline !important;
 }
 
 /* .close1 {

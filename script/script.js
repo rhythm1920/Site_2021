@@ -85,7 +85,24 @@ $("#target_form").submit(function (e) {
   emailjs.init("USER_ID");
   emailjs.send("SERVICE_ID", "TEMPLATE_ID", send_data).then(
     function (response) {
-      console.log("SUccess");
+      console.log("Success");
+    },
+    function (error) {
+      console.log(error);
+    }
+  );
+  e.preventDefault();
+});
+
+$("#newsletter_form").submit(function (e) {
+  var form_data = $(this).serializeArray();
+  var send_data = {
+    email: form_data[0].value,
+  };
+  emailjs.init("USER_ID");
+  emailjs.send("SERVICE_ID", "TEMPLATE_ID", send_data).then(
+    function (response) {
+      console.log("Success newsletter");
     },
     function (error) {
       console.log(error);

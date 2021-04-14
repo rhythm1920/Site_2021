@@ -65,8 +65,15 @@
 
     <div class="main">
       <i class="fa fa-bars close mx-1 my-1"></i>
+
       <div class="container-fluid p-0 parallax">
-        <!-- <img src="./images/gallery/index-cover.jpg" alt="" class="img-fluid" /> -->
+        <div class="cover-text">
+          <span id="team-text" style="--order: 1" class="pb-0">TEAM</span
+          ><span id="kart-text" style="--order: 2" class="pb-0">KART</span>
+          <p style="--order: 3">GENESIS</p>
+          <p style="--order: 5">EVOLUTION</p>
+          <p style="--order: 7">DOMINATION</p>
+        </div>
         <a href="#about" class="btn btn-white"
           ><i class="fas fa-arrow-down"></i
         ></a>
@@ -92,7 +99,7 @@
                 nec feugiat in fermentum posuere urna nec.
               </p>
               <a
-                href="https://en.wikipedia.org/wiki/Team_KART"
+                href="https://wiki.metakgp.org/w/Team_KART"
                 class="btn btn-outline-danger"
                 target="_blank"
                 >Know More</a
@@ -270,20 +277,21 @@
                 <h4 class="pt-4 pb-1">Newsletter</h4>
 
                 <div class="input-group rounded-0">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter your email..."
-                    aria-label="Newsletter subscription"
-                  />
-                  <div class="input-group-append">
+                  <form class="col-12" id="newsletter_form" method="GET">
+                    <input
+                      name="email"
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter your email..."
+                      aria-label="Newsletter subscription"
+                    />
                     <button
-                      class="btn btn-outline-secondary mx-1 btn-large"
-                      type="button"
+                      class="btn btn-outline-secondary btn-large"
+                      type="submit"
                     >
                       <i class="fas fa-paper-plane ps-0"></i>
                     </button>
-                  </div>
+                  </form>
                 </div>
               </div>
             </div>
