@@ -1,25 +1,10 @@
-#team h3 {
+#team h3,
+#team h4,
+#team h5 {
   color: black;
   padding-right: 0;
   padding-left: 0;
   text-align: center;
-}
-
-#team h4 {
-  color: black;
-  padding-right: 0;
-  padding-left: 0;
-  text-align: center;
-}
-
-h2 {
-  color: black !important;
-  font-family: "lemon_milkmedium" !important;
-  padding: 1em 0;
-}
-
-.aero-div {
-  width: 90% !important;
 }
 
 .media {
@@ -76,26 +61,10 @@ h2 {
   float: right !important;
 }
 
-.members h5 {
-  color: black;
-  text-align: center;
-  padding: 0;
+.aero-div {
+  width: 90% !important;
 }
 
 .members h4 {
   font-family: "lemon_milkmedium" !important;
 }
-
-/* @media only screen and (max-width: 576px) {
-  .media {
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-  }
-
-  .media img {
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-  }
-} */

@@ -1,3 +1,7 @@
+.card h4 {
+  color: black !important;
+}
+
 .gallery-image {
   height: 300px;
   width: 500px;
@@ -34,10 +38,6 @@
 .gallery-box img:hover {
   opacity: 0.7;
   transition: 0.5s;
-}
-
-.card h4 {
-  color: black !important;
 }
 
 @media only screen and (max-width: 576px) {

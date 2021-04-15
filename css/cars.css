@@ -7,16 +7,15 @@
   place-items: center;
 }
 
-.flip-card h3 {
+.flip-card h3,
+.flip-card h5,
+.flip-cardh6 {
   color: black;
 }
+
 .flip-card h4 {
   color: black;
   font-family: "lemon_milkmedium";
-}
-.flip-card h5,
-h6 {
-  color: black !important;
 }
 
 .flip-card-base {
@@ -74,19 +73,6 @@ h6 {
   font-size: 14px;
 }
 
-/* .show-car {
-  opacity: 1;
-  transition: 1s;
-} */
-
-li {
-  margin-left: 0;
-}
-
-/* .flip-card:active .flip-card-base {
-  transform: rotateY(180deg);
-} */
-
 .flipper {
   transform: rotateY(180deg);
 }
@@ -114,21 +100,6 @@ li {
 
 .flip-card ::-webkit-scrollbar {
   width: 5px;
-}
-
-/* Track */
-.flip-card ::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-.flip-card ::-webkit-scrollbar-thumb {
-  background: rgb(167, 167, 167);
-}
-
-/* Handle on hover */
-.flip-card ::-webkit-scrollbar-thumb:hover {
-  background: rgb(167, 167, 167);
 }
 
 .table-width {

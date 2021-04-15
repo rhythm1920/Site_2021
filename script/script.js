@@ -36,9 +36,6 @@ $(window).on("load", function () {
     }
   });
 
-  // console.log(window.location.hash);
-  // console.log($(window).scrollTop());
-
   if (window.location.hash === "#contact" && $(window).scrollTop() === 0) {
     $("html, body").animate(
       {
@@ -46,34 +43,10 @@ $(window).on("load", function () {
       },
       100
     );
-    // console.log("scroll down");
   }
 
-  // if (window.location.hash === "#contact" && toggle === false) {
-  //   console.log("close");
-  // }
+  $(".cover-text img").fadeIn(1500);
 });
-
-// const check = setInterval(function () {
-//   if (window.location.hash === "#contact") {
-//     $(".sidebar").animate({
-//       width: "0",
-//     });
-//     $(".main").animate({
-//       opacity: 1,
-//     });
-//     toggle = !toggle;
-//     $("body, html").animate(
-//       {
-//         scrollTop: $("#contact").offset().top,
-//       },
-//       100,
-//       "linear"
-//     );
-
-//     clearInterval(check);
-//   }
-// }, 200);
 
 $("#target_form").submit(function (e) {
   var form_data = $(this).serializeArray();
@@ -110,3 +83,5 @@ $("#newsletter_form").submit(function (e) {
   );
   e.preventDefault();
 });
+
+console.log(config.USER_ID);
