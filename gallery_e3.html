@@ -23,16 +23,15 @@
     <title>TeamKART</title>
     <div class="sidebar">
       <a href="#"><i class="fas fa-arrow-left close"></i></a>
-      <!-- <a href="#"><img src="./images/tklogo.png" alt="teamkart-logo" class="tklogo"></a> -->
       <div class="sidebar-in">
         <img src="images/tklogo.png" class="tklogo pb-3" />
         <a href="./index.html">Home</a>
         <a href="./team.html">Team</a>
         <a href="./cars.html">Cars</a>
-        <a href="./index.html#contact" id="contactButton">Contact</a>
         <a href="./sponsers.html">Sponsors</a>
         <a href="./gallery.html">Gallery</a>
         <a href="./blog.html">Blog</a>
+        <a href="./index.html#contact" id="contactButton">Contact</a>
       </div>
     </div>
   </head>
@@ -222,20 +221,21 @@
                 <h4 class="pt-4 pb-1">Newsletter</h4>
 
                 <div class="input-group rounded-0">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter your email..."
-                    aria-label="Newsletter subscription"
-                  />
-                  <div class="input-group-append">
+                  <form class="col-12" id="newsletter_form" method="GET">
+                    <input
+                      name="email"
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter your email..."
+                      aria-label="Newsletter subscription"
+                    />
                     <button
-                      class="btn btn-outline-secondary mx-1 btn-large"
-                      type="button"
+                      class="btn btn-outline-secondary btn-large"
+                      type="submit"
                     >
                       <i class="fas fa-paper-plane ps-0"></i>
                     </button>
-                  </div>
+                  </form>
                 </div>
               </div>
             </div>
@@ -247,9 +247,6 @@
                 <a href="./index.html" id="footer-links" class="p-2">Home</a>
                 <a href="./team.html" id="footer-links" class="p-2">Team</a>
                 <a href="./cars.html" id="footer-links" class="p-2">Cars</a>
-                <a href="./index.html#contact" id="footer-links" class="p-2"
-                  >Contact</a
-                >
                 <a href="./sponsers.html" id="footer-links" class="p-2"
                   >Sponsors</a
                 >
@@ -257,6 +254,9 @@
                   >Gallery</a
                 >
                 <a href="./blog.html" id="footer-links" class="p-2">Blog</a>
+                <a href="./index.html#contact" id="footer-links" class="p-2"
+                  >Contact</a
+                >
               </div>
               <p class="mb-1">Copyright ©2020 | TeamKART</p>
               <a href="" class="px-3"><i class="fab fa-facebook-f p-0"></i></a>

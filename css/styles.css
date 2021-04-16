@@ -173,7 +173,7 @@ body {
 }
 
 .parallax {
-  background-image: url("../images/index-cover.jpg");
+  background-image: url("../images/cover-image.jpg");
   height: 740px;
   background-position: center;
   background-repeat: no-repeat;
@@ -262,13 +262,16 @@ body {
   color: black;
   background-color: #eaeaea;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .info-icons h3 {
   position: relative;
   color: black;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   margin-top: -2em;
+  padding: 0 0 1rem 0;
   z-index: -1;
   transition: 0.5s;
   text-align: center;
@@ -393,13 +396,6 @@ body {
   .hr {
     margin: 0 auto;
     margin-bottom: 2em;
-  }
-
-  .info-icons {
-    position: relative;
-    font-size: 5em;
-    z-index: 2;
-    text-align: center !important;
   }
 
   .footer h1,
