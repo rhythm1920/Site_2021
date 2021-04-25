@@ -38,14 +38,23 @@
   color: white;
   text-decoration: none;
   font-size: 1.1em;
+  height: 50px;
   width: 250px;
   margin-top: -120px;
   z-index: 2;
   opacity: 0;
 }
 
-.team-contact a:hover {
+.team-contact .fa-facebook:hover {
   color: blue;
+}
+
+.team-contact .fa-linkedin-in:hover {
+  color: #0077b5;
+}
+
+.team-contact .fa-envelope:hover {
+  color: red;
 }
 
 .close-button {

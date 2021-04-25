@@ -1,6 +1,16 @@
 let toggle = true;
 
 $(window).on("load", function () {
+  AOS.init();
+
+  $(window).scroll(function () {
+    AOS.refresh();
+    // let scroll = $(this).scrollTop();
+    // scroll < 800
+    //   ? $(".fa-bars").css("color", "rgb(212,0,0)")
+    //   : $(".fa-bars").css("color", "black");
+  });
+
   $(".loader-bg").hide();
   $(".main").show();
 

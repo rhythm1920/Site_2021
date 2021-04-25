@@ -21,7 +21,6 @@
 
 html,
 body {
-  scroll-behavior: smooth;
   height: 100%;
 }
 
@@ -81,7 +80,7 @@ body {
   transition: 0.3;
 }
 
-.fa-arrow-left {
+.sidebar .fa-arrow-left {
   color: white;
   font-size: 2em;
   position: absolute;
@@ -89,13 +88,13 @@ body {
   padding: 0.75em;
 }
 
-.fa-arrow-left:hover {
+.sidebar .fa-arrow-left:hover {
   color: rgb(240, 0, 0);
   transform: translateX(-10px);
   transition: 0.3s;
 }
 
-.tklogo {
+.sidebar .tklogo {
   height: 100px;
 }
 
@@ -145,6 +144,7 @@ body {
 .fa-bars:hover {
   color: rgb(240, 0, 0);
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .main {
@@ -202,7 +202,7 @@ body {
   font-size: 2.2em;
 }
 
-.parallax a:hover > .fa-arrow-down {
+.parallax .fa-arrow-down {
   animation: move-down 0.5s infinite alternate;
 }
 
@@ -372,7 +372,6 @@ body {
 
 @media only screen and (max-width: 576px) {
   body {
-    overflow: auto;
     height: 100%;
   }
 
@@ -399,11 +398,11 @@ body {
   }
 
   .footer h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  .footer h2,
+  .footer h3,
+  .footer h4,
+  .footer h5,
+  .footer h6 {
     text-align: left;
     padding-left: 1rem;
   }
@@ -412,7 +411,7 @@ body {
     padding-left: 1rem;
   }
 
-  .manager-contact {
+  .footer .manager-contact {
     text-align: left !important;
     padding-left: 1rem;
   }
