@@ -246,7 +246,7 @@ body {
   color: red;
   width: 7em;
   margin-left: 6em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .info-icons {
@@ -392,9 +392,13 @@ body {
     text-align: center;
   }
 
+  .main h1 {
+    font-size: 1.9rem;
+  }
+
   .hr {
     margin: 0 auto;
-    margin-bottom: 2em;
+    margin-bottom: 0;
   }
 
   .footer h1,
