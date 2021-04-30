@@ -4,9 +4,22 @@
   border: 0 !important;
 }
 
+.blog img {
+  height: 250px;
+}
+
 .blog a {
   text-decoration: none;
   color: rgb(220, 53, 106);
+  width: 40%;
+}
+
+.blog a:hover {
+  color: white;
+}
+
+.blog p {
+  font-family: "Roboto", sans-serif !important;
 }
 
 .blog h5 {
@@ -15,4 +28,9 @@
 
 .read-more {
   width: 40%;
+}
+
+.blog h1 {
+  padding: 1rem 0 0 0;
+  text-align: center;
 }

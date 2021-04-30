@@ -133,7 +133,7 @@ body {
 }
 
 .fa-bars {
-  color: black;
+  color: rgba(255, 0, 0, 0.822);
   position: fixed;
   padding: 0.25em;
   font-size: 2em;
@@ -166,6 +166,7 @@ body {
 
 .main p {
   font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
 }
 
 .cover-image img {
@@ -247,6 +248,10 @@ body {
   width: 7em;
   margin-left: 6em;
   margin-bottom: 1em;
+}
+
+#fs-image {
+  width: 750px;
 }
 
 .info-icons {
@@ -373,6 +378,7 @@ body {
 @media only screen and (max-width: 576px) {
   body {
     height: 100%;
+    width: 100%;
   }
 
   .parallax {
@@ -398,7 +404,7 @@ body {
 
   .hr {
     margin: 0 auto;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
 
   .footer h1,
