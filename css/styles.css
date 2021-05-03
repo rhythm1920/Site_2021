@@ -256,13 +256,14 @@ body {
 
 .info-icons {
   position: relative;
-  font-size: 5em;
+  font-size: 4.5em;
   z-index: 2;
   text-align: center;
+  padding: 2rem !important;
 }
 
 .info-icons h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 0;
   color: black;
   background-color: #eaeaea;
