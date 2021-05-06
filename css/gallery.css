@@ -1,3 +1,8 @@
+.gallery a {
+  text-decoration: none;
+  color: black;
+}
+
 .card h4 {
   color: black !important;
 }
@@ -29,15 +34,15 @@
 
 .gallery-box {
   background-color: transparent !important;
+  transition: 0.2s;
 }
 
 .gallery-box img {
   padding: 0.5em;
 }
 
-.gallery-box img:hover {
-  opacity: 0.7;
-  transition: 0.5s;
+.gallery-box:hover {
+  opacity: 0.8;
 }
 
 @media only screen and (max-width: 576px) {

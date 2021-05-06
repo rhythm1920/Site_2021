@@ -171,11 +171,12 @@ body {
 
 .cover-image img {
   object-fit: cover;
+  min-height: 283px;
 }
 
 .parallax {
   background-image: url("../images/cover-image.jpg");
-  height: 740px;
+  height: 47em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -362,9 +363,14 @@ body {
 .footer .social-media a {
   color: white;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.7em;
   padding-left: 0.5em;
   padding-right: 0.5em;
+  transition: 0.3s;
+}
+
+.footer .social-media a:hover {
+  color: red;
 }
 
 .fa-paper-plane {
