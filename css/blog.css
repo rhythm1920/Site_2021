@@ -18,12 +18,12 @@
   color: white;
 }
 
-.blog p {
-  font-family: "Roboto", sans-serif !important;
-}
-
 .blog h5 {
   color: black;
+}
+
+.blog .card-text {
+  text-align: justify;
 }
 
 .read-more {

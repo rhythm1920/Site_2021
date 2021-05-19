@@ -171,12 +171,13 @@ body {
 
 .cover-image img {
   object-fit: cover;
-  min-height: 283px;
+  min-height: 290px;
+  aspect-ratio: 1.5;
 }
 
 .parallax {
   background-image: url("../images/cover-image.jpg");
-  height: 47em;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,7 +189,8 @@ body {
   position: absolute;
   display: none;
   right: 2rem;
-  height: 15rem;
+  top: 1rem;
+  height: 18vw;
 }
 
 .parallax a {
@@ -251,6 +253,10 @@ body {
   margin-bottom: 1em;
 }
 
+.row p {
+  text-align: justify;
+}
+
 #fs-image {
   width: 750px;
 }
@@ -287,6 +293,19 @@ body {
 .info-icons:hover > h3 {
   transform: translateY(2em);
   color: black;
+}
+
+#success-mail,
+#fail-mail {
+  display: none;
+}
+
+#success-mail {
+  color: rgb(0, 141, 0);
+}
+
+#fail-mail {
+  color: red;
 }
 
 .form-group input {

@@ -71,9 +71,14 @@ $("#target_form").submit(function (e) {
   emailjs.send(config.SERVICE_ID, config.TEMPLATE_ID, send_data).then(
     function (response) {
       console.log("Success");
+      $("#success-mail").show();
+      $("#fail-mail").hide();
+      $("form").trigger("reset");
     },
     function (error) {
       console.log(error);
+      $("#fail-mail").show();
+      $("#success-mail").hide();
     }
   );
   e.preventDefault();

@@ -72,6 +72,9 @@
       </div>
 
       <div class="container-fluid p-0 mobile-cover">
+        <div class="cover-text">
+          <img src="./images/tklogo.png" />
+        </div>
         <img src="./images/cover-image.jpg" alt="" class="img-fluid" />
       </div>
 
@@ -83,7 +86,7 @@
         <div class="container container-fluid" data-aos="fade-up">
           <div class="row">
             <div class="col-xl-7 p-3">
-              <p class="about">
+              <p>
                 TeamKART is the official formula student team of IIT Kharagpur.
                 We are a group of students that love to get our hands dirty, and
                 design, manufacture and test formula-student style prototype
@@ -185,6 +188,14 @@
           <div class="row">
             <div class="col-xl-4 col-lg-6 pb-4">
               <form class="col-12" id="target_form" method="GET">
+                <div id="success-mail">
+                  <i class="fas fa-check fs-5"></i>
+                  <h4 class="d-inline">Successfully sent!</h4>
+                </div>
+                <div id="fail-mail">
+                  <i class="fas fa-exclamation-circle fs-5"></i>
+                  <h4 class="d-inline">Unsucessful, Please try again later.</h4>
+                </div>
                 <div class="form-group">
                   <input
                     type="text"
@@ -222,13 +233,6 @@
               </form>
             </div>
             <div class="col-xl-8 col-lg-6 col-12 pb-4">
-              <!-- <iframe
-                id="168e561c-9deb-41e5-8fb0-6cfcedfcd703"
-                src="https://www.vectary.com/viewer/v1/?model=168e561c-9deb-41e5-8fb0-6cfcedfcd703&env=monkforest"
-                frameborder="0"
-                width="100%"
-                height="480"
-              ></iframe> -->
               <iframe
                 src="https://www.youtube.com/embed/JSdIKUr9uXM"
                 frameborder="0"
@@ -236,26 +240,6 @@
                 allowfullscreen
                 class="h-100 w-100"
               ></iframe>
-              <!-- <div
-                class="fb-page"
-                data-href="https://www.facebook.com/TeamKART"
-                data-tabs="timeline"
-                data-width=""
-                data-height=""
-                data-small-header="false"
-                data-adapt-container-width="true"
-                data-hide-cover="false"
-                data-show-facepile="true"
-              >
-                <blockquote
-                  cite="https://www.facebook.com/TeamKART"
-                  class="fb-xfbml-parse-ignore"
-                >
-                  <a href="https://www.facebook.com/TeamKART"
-                    >Team KART-Formula SAE team of IIT-Kharagpur</a
-                  >
-                </blockquote>
-              </div> -->
             </div>
           </div>
         </div>
@@ -264,40 +248,41 @@
       <footer>
         <div class="container container-fluid footer pb-4">
           <div class="row justify-content-center">
-            <div class="col col-xl-3 col-lg-5 col-md-12 col-sm-12 col-12">
-              <h4 class="pt-4 pb-1">Find Us</h4>
-              <div class="map clearfix">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1792.9044026033764!2d87.31555235805091!3d22.320339919170205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d441bd5dd36ff%3A0xe6a8debfe052c0aa!2sTeamKART%20Bay!5e0!3m2!1sen!2sin!4v1609521595560!5m2!1sen!2sin"
-                  frameborder="0"
-                  style="border: 0"
-                ></iframe>
+            <div
+              class="row col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 justify-content-center"
+            >
+              <div class="col col-xl-6 col-lg-6 col-md-5 col-sm-12 col-12">
+                <h4 class="pt-4 pb-1">Find Us</h4>
+                <div class="map clearfix">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1792.9044026033764!2d87.31555235805091!3d22.320339919170205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d441bd5dd36ff%3A0xe6a8debfe052c0aa!2sTeamKART%20Bay!5e0!3m2!1sen!2sin!4v1609521595560!5m2!1sen!2sin"
+                    frameborder="0"
+                    style="border: 0"
+                  ></iframe>
+                </div>
               </div>
-            </div>
-            <div class="row col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-              <div
-                class="col col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12 ps-0"
-              >
+
+              <div class="col col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 ps-0">
                 <h4 class="pt-4 pb-1">Contacts</h4>
                 <p class="manager-contact mb-2">
                   Swarnim Raj <br />
-                  +91- 91241247125
+                  +91-7258888701
                 </p>
                 <p class="manager-contact mb-2">
                   Keshav Bagri<br />
-                  +91- 91241247125
+                  +91-9836178754
                 </p>
-                <i class="fas fa-phone-alt d-block mt-4 pt-1"
-                  ><span class="ps-2">+91-987654321</span></i
-                >
-                <i class="fas fa-envelope d-block mt-2"
-                  ><span class="ps-2">teamkartmedia@gmail.com</span></i
-                >
-                <i class="fas fa-map-marker-alt d-block mt-2 pb-2">
-                  <span class="ps-2">TeamKART Bay, Behind Nehru Musem</span>
-                </i>
+                <i class="fas fa-envelope d-inline mt-4 fs-6"></i>
+                <p class="d-inline mb-0 fs-6 ps-1">teamkartmedia@gmail.com</p>
+                <br />
+                <i class="fas fa-map-marker-alt d-inline mt-2 pb-2 fs-6"> </i>
+                <p class="d-inline mb-0 fs-6 ps-2">
+                  Behind Nehru Museum, IIT-Kharagpur
+                </p>
+                <p class="mb-0 fs-6 ps-4">Kharagpur, West Bengal</p>
+                <p class="mb-0 fs-6 ps-4">Pincode-721302</p>
               </div>
-              <div class="col col-xl-6 col-lg-8 col-md-8 col-sm-12 col-12 ps-0">
+              <!-- <div class="col col-xl-6 col-lg-8 col-md-8 col-sm-12 col-12 ps-0">
                 <h4 class="pt-4 pb-1">Newsletter</h4>
 
                 <div class="input-group rounded-0">
@@ -317,7 +302,7 @@
                     </button>
                   </form>
                 </div>
-              </div>
+              </div> -->
             </div>
             <div
               class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 social-media"

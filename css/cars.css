@@ -29,6 +29,10 @@
   height: 200px;
 }
 
+.flip-card-base p {
+  text-align: justify !important;
+}
+
 .car-image h4 {
   padding-left: 0 !important;
   padding-top: 2rem !important;
