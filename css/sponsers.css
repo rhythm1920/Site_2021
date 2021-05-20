@@ -1,3 +1,7 @@
+.spons-brochure p {
+  text-align: justify;
+}
+
 .spons-brochure a {
   text-decoration: none;
   font-size: 1.2rem;
