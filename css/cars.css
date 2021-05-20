@@ -5,6 +5,7 @@
   perspective: 1000px;
   display: grid;
   place-items: center;
+  overflow: hidden;
 }
 
 .flip-card h3,
@@ -38,15 +39,10 @@
   padding-top: 2rem !important;
   height: 200px;
   font-size: 8rem;
-  background-image: url("../images/cars/c1.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  -webkit-text-fill-color: rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
   -webkit-background-clip: text;
-}
-
-.car-image {
-  overflow: hidden !important;
 }
 
 .car-actual-image {
@@ -58,7 +54,6 @@
 
 .car-actual-image:hover {
   opacity: 1;
-  transition: 0.5s;
 }
 
 .reveal {

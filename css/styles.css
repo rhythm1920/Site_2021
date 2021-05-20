@@ -175,6 +175,13 @@ body {
   aspect-ratio: 1.5;
 }
 
+.carousel-caption h5 {
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 01);
+  display: inline;
+  padding: 0.2em 2em;
+}
+
 .parallax {
   background-image: url("../images/cover-image.jpg");
   height: 100vh;
@@ -348,14 +355,6 @@ body {
   font-size: 0.8em;
 }
 
-.footer .fa-envelope {
-  font-size: 0.8em;
-}
-
-.footer .fa-map-marker-alt {
-  font-size: 0.8em;
-}
-
 .footer span {
   font-family: sans-serif;
   font-size: 0.9em;
@@ -366,7 +365,7 @@ body {
 .map iframe {
   margin: 0;
   height: 250px;
-  width: 95%;
+  width: 90%;
   background-color: #eaeaea;
 }
 
@@ -440,7 +439,7 @@ body {
   .footer h5,
   .footer h6 {
     text-align: left;
-    padding-left: 1rem;
+    padding: 0 1rem;
   }
 
   .footer .map {
@@ -452,7 +451,7 @@ body {
     padding-left: 1rem;
   }
 
-  .footer i {
+  .footer .contact-info {
     padding-left: 1rem;
   }
 
