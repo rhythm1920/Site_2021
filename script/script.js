@@ -23,6 +23,7 @@ $(window).on("load", function () {
       $(".main").animate({
         opacity: 0.5,
       });
+      $(".fa-bars").hide();
     } else {
       $(".sidebar").animate({
         width: "0",
@@ -30,6 +31,7 @@ $(window).on("load", function () {
       $(".main").animate({
         opacity: 1,
       });
+      $(".fa-bars").show();
       toggle = !toggle;
     }
 
