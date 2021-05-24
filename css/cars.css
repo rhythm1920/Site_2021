@@ -59,6 +59,7 @@
 
 .car-actual-image:hover {
   opacity: 1;
+  cursor: default;
 }
 
 .reveal {

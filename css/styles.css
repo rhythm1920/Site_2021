@@ -134,16 +134,20 @@ body {
 
 .fa-bars {
   color: rgba(255, 0, 0, 0.822);
+  background-color: rgba(0, 0, 0, 0.1);
   position: fixed;
-  padding: 0.25em;
+  top: 0.3em;
+  left: 0.3em;
+  padding: 0.4em;
   font-size: 2em;
   z-index: 999;
-  border-radius: 0;
+  border-radius: 1em;
+  transition: 0.3s;
 }
 
 .fa-bars:hover {
-  color: rgb(240, 0, 0);
-  transition: 0.3s;
+  color: rgb(255, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
@@ -428,6 +432,12 @@ body {
     width: 100%;
   }
 
+  .fa-bars {
+    top: 0.15em;
+    left: 0.15em;
+    font-size: 1.7em;
+  }
+
   .parallax {
     display: none;
   }
@@ -443,6 +453,10 @@ body {
   h5,
   h6 {
     text-align: center;
+  }
+
+  .main p {
+    font-size: 1rem;
   }
 
   .main h1 {
