@@ -139,7 +139,7 @@ body {
   top: 0.3em;
   left: 0.3em;
   padding: 0.4em;
-  font-size: 2em;
+  font-size: 1.7em;
   z-index: 999;
   border-radius: 1em;
   transition: 0.3s;
@@ -435,7 +435,6 @@ body {
   .fa-bars {
     top: 0.15em;
     left: 0.15em;
-    font-size: 1.7em;
   }
 
   .parallax {

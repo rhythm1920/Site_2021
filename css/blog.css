@@ -34,3 +34,21 @@
   padding: 1rem 0 0 0;
   text-align: center;
 }
+
+@media only screen and (max-width: 576px) {
+  .blog {
+    width: 250px;
+  }
+
+  .blog img {
+    height: 200px;
+  }
+
+  .blog a {
+    padding: 5px;
+  }
+
+  .read-more {
+    padding: 5px;
+  }
+}

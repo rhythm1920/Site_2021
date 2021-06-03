@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/gallery.css" />
     <title>TeamKART</title>
+    <!-- The sidebar navigation -->
     <div class="sidebar">
       <a href="#"><i class="fas fa-arrow-left close"></i></a>
       <div class="sidebar-in">
@@ -39,6 +40,7 @@
   </head>
 
   <body>
+    <!-- The preloading animation till the page gets fully loaded -->
     <div class="loader-bg">
       <div class="preloader text-center">
         <img src="https://img.icons8.com/android/96/000000/wheel.png" />
@@ -60,8 +62,10 @@
     </div>
 
     <div class="main">
+      <!-- The Ham button for toggling the sidebar -->
       <i class="fa fa-bars close mx-1 my-1"></i>
 
+      <!-- The Carousel Slider on the top of the page -->
       <div class="container-fluid p-0 top-slider cover-image">
         <div
           id="carouselExampleCaptions"
@@ -154,9 +158,30 @@
 
       <h1 class="text-center">GALLERY</h1>
       <hr class="hr mx-auto" />
+
+      <!-- THE Gallery list -->
+      <!-- Template gallery card -->
+      <!-- <a
+              href="<URL_FOR_DRIVE_LINK_OF_GALLERY>"
+              target="_blank"
+            >
+              <div class="card mx-auto gallery-box" style="width: 18rem">
+                <img
+                  src="<IMG_FOR_COVER_GALLERY_CARD>"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h4 class="p-0 text-center"><TITLE_FOR_GALLERY></h4>
+                  <p class="card-text text-center">
+                    <BRIEF_DESCRIPTION_FOR_GALLERY>
+                  </p>
+                </div>
+              </div>
+            </a> -->
       <div class="container-fluid p-4 gallery">
         <div class="row py-2" data-aos="fade-up">
-          <div class="col-xl-3 col-lg-6 col-sm-6 col-12 py-4">
+          <div class="col-xl-3 col-lg-4 col-sm-6 col-12 py-4">
             <a
               href="https://drive.google.com/drive/folders/1PFVOfYiOLAo07LL2RlIoL5HihFEFDZNa?usp=sharing"
               target="_blank"
@@ -196,7 +221,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-6 col-sm-6 col-12 py-4">
+          <div class="col-xl-3 col-lg-4 col-sm-6 col-12 py-4">
             <a
               href="https://drive.google.com/drive/folders/1ypl6zkYjrc5Ybt8zh1N8JH5I6xJrLhQ4?usp=sharing"
               target="_blank"
@@ -319,104 +344,7 @@
         </div>
       </div>
 
-      <!-- <footer>
-        <div class="container container-fluid footer pb-4">
-          <div class="row justify-content-center">
-            <div class="col col-xl-3 col-lg-5 col-md-12 col-sm-12 col-12">
-              <h4 class="pt-4 pb-1">Find Us</h4>
-              <div class="map clearfix">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1792.9044026033764!2d87.31555235805091!3d22.320339919170205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d441bd5dd36ff%3A0xe6a8debfe052c0aa!2sTeamKART%20Bay!5e0!3m2!1sen!2sin!4v1609521595560!5m2!1sen!2sin"
-                  frameborder="0"
-                  style="border: 0"
-                ></iframe>
-              </div>
-            </div>
-            <div class="row col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-              <div
-                class="col col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12 ps-0"
-              >
-                <h4 class="pt-4 pb-1">Contacts</h4>
-                <p class="manager-contact mb-2">
-                  Swarnim Raj <br />
-                  +91- 91241247125
-                </p>
-                <p class="manager-contact mb-2">
-                  Keshav Bagri<br />
-                  +91- 91241247125
-                </p>
-                <i class="fas fa-phone-alt d-block mt-4 pt-1"
-                  ><span class="ps-2">+91-987654321</span></i
-                >
-                <i class="fas fa-envelope d-block mt-2"
-                  ><span class="ps-2">teamkartmedia@gmail.com</span></i
-                >
-                <i class="fas fa-map-marker-alt d-block mt-2 pb-2">
-                  <span class="ps-2">TeamKART Bay, Behind Nehru Musem</span>
-                </i>
-              </div>
-              <div class="col col-xl-6 col-lg-8 col-md-8 col-sm-12 col-12 ps-0">
-                <h4 class="pt-4 pb-1">Newsletter</h4>
-
-                <div class="input-group rounded-0">
-                  <form class="col-12" id="newsletter_form" method="GET">
-                    <input
-                      name="email"
-                      type="text"
-                      class="form-control"
-                      placeholder="Enter your email..."
-                      aria-label="Newsletter subscription"
-                    />
-                    <button
-                      class="btn btn-outline-secondary btn-large"
-                      type="submit"
-                    >
-                      <i class="fas fa-paper-plane ps-0"></i>
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 social-media"
-            >
-              <hr style="width: 80%; margin: 1rem auto" />
-              <div class="container container-fluid mt-0 mb-2 p-2">
-                <a href="./index.html" id="footer-links" class="p-2">Home</a>
-                <a href="./team.html" id="footer-links" class="p-2">Team</a>
-                <a href="./cars.html" id="footer-links" class="p-2">Cars</a>
-                <a href="./sponsers.html" id="footer-links" class="p-2"
-                  >Sponsors</a
-                >
-                <a href="./gallery.html" id="footer-links" class="p-2"
-                  >Gallery</a
-                >
-                <a href="./blog.html" id="footer-links" class="p-2">Blog</a>
-                <a href="./index.html#contact" id="footer-links" class="p-2"
-                  >Contact</a
-                >
-              </div>
-              <a href="https://www.facebook.com/TeamKART" class="px-3"
-                ><i class="fab fa-facebook-f p-0"></i
-              ></a>
-              <a href="https://www.instagram.com/team.kart/" class="px-3"
-                ><i class="fab fa-instagram p-0"></i
-              ></a>
-              <a
-                href="https://www.youtube.com/channel/UCvHSedfK-dS5wtvZphz8uow/featured"
-                class="px-3"
-                ><i class="fab fa-youtube p-0"></i
-              ></a>
-              <a href="https://www.linkedin.com/company/team-kart/" class="px-3"
-                ><i class="fab fa-linkedin-in p-0"></i
-              ></a>
-              <a href="mailto:teamkartmedia@gmail.com" class="px-3"
-                ><i class="fas fa-envelope p-0"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </footer> -->
+      <!-- The Footer for all pages -->
       <footer>
         <div class="container container-fluid footer pb-4">
           <div
@@ -427,6 +355,7 @@
               mx-auto
             "
           >
+            <!-- Find Us div with Google Map iFrame -->
             <div class="col col-xl-6 col-lg-6 col-md-5 col-sm-12 col-12 px-0">
               <h4 class="pt-4 pb-1">Find Us</h4>
               <div class="map clearfix">
@@ -438,6 +367,7 @@
               </div>
             </div>
 
+            <!-- Contacts div -->
             <div class="col col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 px-0">
               <h4 class="pt-4 pb-1">Contacts</h4>
               <p class="manager-contact mb-2">
@@ -473,28 +403,32 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="col col-xl-6 col-lg-8 col-md-8 col-sm-12 col-12 ps-0">
-                <h4 class="pt-4 pb-1">Newsletter</h4>
 
-                <div class="input-group rounded-0">
-                  <form class="col-12" id="newsletter_form" method="GET">
-                    <input
-                      name="email"
-                      type="text"
-                      class="form-control"
-                      placeholder="Enter your email..."
-                      aria-label="Newsletter subscription"
-                    />
-                    <button
-                      class="btn btn-outline-secondary btn-large"
-                      type="submit"
-                    >
-                      <i class="fas fa-paper-plane ps-0"></i>
-                    </button>
-                  </form>
-                </div>
-              </div> -->
+            <!-- Newsletter sign up mail div (*Update when latest newsletter is released) -->
+            <!-- <div class="col col-xl-6 col-lg-8 col-md-8 col-sm-12 col-12 ps-0">
+            <h4 class="pt-4 pb-1">Newsletter</h4>
+
+            <div class="input-group rounded-0">
+              <form class="col-12" id="newsletter_form" method="GET">
+                <input
+                  name="email"
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your email..."
+                  aria-label="Newsletter subscription"
+                />
+                <button
+                  class="btn btn-outline-secondary btn-large"
+                  type="submit"
+                >
+                  <i class="fas fa-paper-plane ps-0"></i>
+                </button>
+              </form>
+            </div>
+          </div> -->
           </div>
+
+          <!-- The Social Media Footer icons -->
           <div
             class="
               col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12
