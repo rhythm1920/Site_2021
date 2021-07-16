@@ -1,7 +1,7 @@
 cars = ["#car_1", "#car_2", "#car_3", "#car_4", "#car_5", "#car_6", "#car_7"];
 
 cars.forEach((car) => {
-  $(`${car}_text`).click(() => {
+  $(`${car} .front`).click(() => {
     $(`${car} > .flip-card-base`).toggleClass("flipper");
   });
 
