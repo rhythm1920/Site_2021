@@ -43,6 +43,7 @@ $(window).on("load", function () {
         $(".main").animate({
           opacity: 1,
         });
+        $(".fa-bars").show();
         toggle = !toggle;
       });
     }
