@@ -69,8 +69,8 @@ $("#target_form").submit(function (e) {
     subject: form_data[2].value,
     Message: form_data[3].value,
   };
-  emailjs.init(config.USER_ID);
-  emailjs.send(config.SERVICE_ID, config.TEMPLATE_ID, send_data).then(
+  emailjs.init("user_L1mfNtUHvgF69mb9EBEDH");
+  emailjs.send("service_zwomva9", "template_xfdi1nf", send_data).then(
     function (response) {
       console.log("Success");
       $("#success-mail").show();
@@ -91,16 +91,14 @@ $("#newsletter_form").submit(function (e) {
   var send_data = {
     email: form_data[0].value,
   };
-  emailjs.init(newsletterConfig.USER_ID);
-  emailjs
-    .send(newsletterConfig.SERVICE_ID, newsletterConfig.TEMPLATE_ID, send_data)
-    .then(
-      function (response) {
-        console.log("Success newsletter");
-      },
-      function (error) {
-        console.log(error);
-      }
-    );
+  emailjs.init("user_L1mfNtUHvgF69mb9EBEDH");
+  emailjs.send("service_zwomva9", "template_rc65ll5", send_data).then(
+    function (response) {
+      console.log("Success newsletter");
+    },
+    function (error) {
+      console.log(error);
+    }
+  );
   e.preventDefault();
 });
