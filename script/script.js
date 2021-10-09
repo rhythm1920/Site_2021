@@ -18,7 +18,7 @@ $(window).on("load", function () {
     if (toggle) {
       toggle = !toggle;
       $(".sidebar").animate({
-        width: "320px",
+        width: "100vw",
       });
       $(".main").animate({
         opacity: 0.5,

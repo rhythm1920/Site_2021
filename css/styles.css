@@ -33,8 +33,9 @@ body {
   height: 100vh;
   z-index: 1;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.97);
+  background-color: rgba(0, 0, 0, 0.75);
   overflow: hidden;
+  background-blend-mode: darken;
 }
 
 .sidebar-in {
@@ -85,7 +86,7 @@ body {
   font-size: 2em;
   position: absolute;
   right: 0;
-  padding: 0.75em;
+  padding: 1em;
 }
 
 .sidebar .fa-arrow-left:hover {
@@ -95,7 +96,7 @@ body {
 }
 
 .sidebar .tklogo {
-  height: 100px;
+  height: 120px;
 }
 
 .loader-bg {
@@ -134,20 +135,20 @@ body {
 
 .fa-bars {
   color: rgba(255, 0, 0, 0.822);
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0);
   position: fixed;
   top: 0.3em;
   left: 0.3em;
   padding: 0.4em;
   font-size: 1.7em;
   z-index: 999;
-  border-radius: 1em;
+  /* border-radius: 8px; */
   transition: 0.3s;
 }
 
 .fa-bars:hover {
-  color: rgb(255, 0, 0);
-  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  /* background-color: red; */
   cursor: pointer;
 }
 

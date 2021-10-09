@@ -1,5 +1,5 @@
-.spons-brochure p {
-  text-align: justify;
+p {
+  text-align: justify !important;
 }
 
 .spons-brochure a {
