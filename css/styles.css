@@ -188,7 +188,7 @@ body {
 }
 
 .parallax {
-  background-image: url("../images/cover-image.jpg");
+  background-image: url("../images/landing-page.jpeg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -200,7 +200,7 @@ body {
 .cover-text img {
   position: absolute;
   display: none;
-  right: 2rem;
+  left: 3rem;
   top: 1rem;
   height: 18vw;
 }
