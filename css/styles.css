@@ -24,6 +24,22 @@ body {
   height: 100%;
 }
 
+/* Scroll bar
+
+::-webkit-scrollbar{
+  background: none;
+}
+
+::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background: url('../images/scrollbar/carpng.png');
+  background-position: center;
+} */
+
+
 .sidebar {
   position: fixed;
   left: 0;

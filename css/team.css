@@ -83,6 +83,20 @@
   width: 90% !important;
 }
 
-.members h4 {
+/* .members h4 {
   font-family: "lemon_milkmedium" !important;
+} */
+
+.members .member-image{
+  height: 150px !important;
+  width: 150px !important;
+}
+
+.members .media{
+  height: 150px !important;
+  width: 150px !important;
+}
+
+.members .team-contact a{
+  margin-top: -100px;
 }
