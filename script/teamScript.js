@@ -3,6 +3,8 @@ import { TEAM_MEMBERS_DETAILS, TEAM_HEADS_DETAILS, TEAM_MANAGERS_DETAILS } from 
 const member_container = document.querySelector("#members-details")
 const heads_container = document.querySelector("#heads-details")
 const manager_container = document.querySelector("#manager-details")
+
+
 TEAM_MANAGERS_DETAILS.map((manager) =>{
 
   manager_container.innerHTML += `<div class="col col-xl-3 text-center">
@@ -45,7 +47,7 @@ TEAM_HEADS_DETAILS.map((head)=>{
   <img
     src="${head.img}"
     alt="avatar"
-    class="image"
+    class="head-image"
   />
   <div class="team-contact fs-3 justify-content-around d-flex">
     <a
@@ -64,38 +66,8 @@ TEAM_HEADS_DETAILS.map((head)=>{
   </div>
 </div>
 <h3 class="pt-1">${head.name}</h3>
-<h4 class="pt-1">${head.designation1}</h4>
-<h4 class="pt-1">${head.designation2}</h4>
+<h4>${head.designation1}</h4>
+<h4>${head.designation2}</h4>
 </div>
 </div>`
-})
-
-TEAM_MEMBERS_DETAILS.map((member) => {
-    member_container.innerHTML += `
-    <div class="col col-xl-3 text-center p-4">
-    <div class="media mx-auto">
-      <img
-        src="${member.img}"
-        alt="avatar"
-        class="member-image"
-      />
-      <div class="team-contact fs-3 justify-content-around d-flex">
-        <a
-          href="${member.facebook}"
-          target="_blank"
-          ><i class="fab fa-facebook"></i
-        ></a>
-        <a
-          href="${member.linkedin}"
-          target="_blank"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a href="mailto:${member.mail}" target="_blank"
-          ><i class="fas fa-envelope"></i
-        ></a>
-      </div>
-    </div>
-    <h3 class="pt-1">${member.name}</h3>
-    <h4>${member.designation}</h4>
-  </div>`
 })

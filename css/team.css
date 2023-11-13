@@ -42,9 +42,9 @@
   color: white;
   text-decoration: none;
   font-size: 1.1em;
-  height: 50px;
-  width: 250px;
-  margin-top: -120px;
+  /* height: 50px; */
+  /* width: 250px; */
+  margin-top: -64%;
   z-index: 2;
   opacity: 0;
 }
@@ -83,20 +83,26 @@
   width: 90% !important;
 }
 
-/* .members h4 {
+.members h4 {
   font-family: "lemon_milkmedium" !important;
-} */
+}
 
-.members .member-image{
+#heads-details{
+  padding: 1rem 2rem;
+}
+
+#heads-details h4{
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+#heads-details .head-image{
   height: 150px !important;
   width: 150px !important;
 }
 
-.members .media{
-  height: 150px !important;
+#heads-details .media{
+  /* padding: 0 1rem; */
   width: 150px !important;
-}
-
-.members .team-contact a{
-  margin-top: -100px;
+  height: 150px !important;
 }
