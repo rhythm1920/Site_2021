@@ -26,7 +26,7 @@ export const TEAM_MANAGERS_DETAILS = [
         facebook: "https://www.facebook.com/profile.php?id=100013802584124",
         mail: "harshkumar.teamkartkgp@gmail.com",
         designation1: "Finance Head",
-        designation2: "",
+        designation2: "Corporate and Public Relations Head",
         designation3: "" 
     }
 ]
