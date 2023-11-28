@@ -6,7 +6,7 @@ export const TEAM_MANAGERS_DETAILS = [
         facebook: "https://www.facebook.com/profile.php?id=100075516520476",
         mail: "manish.teamkartkgp@gmail.com",
         designation1: "Team Leader",
-        designation2: "Mechanical Head",
+        designation2: "Head of Mechanical Systems",
         designation3: "Chassis Head"
     },
     {
@@ -40,7 +40,7 @@ export const TEAM_HEADS_DETAILS = [
     facebook: "https://www.facebook.com/avi.saraf.90",
     mail: "avi.teamkartkgp@gmail.com",
     designation1: "Electric Powertrain Head",
-    designation2: "Public Relations Head"
+    designation2: ""
 },
   {
     name: "Aaronyak Dewanji",
@@ -124,7 +124,7 @@ export const TEAM_HEADS_DETAILS = [
     designation2: "Media Head"
 },
   {
-    name: "Dilip Dibyajyoti Dash",
+    name: "Dillip Dibyajyoti Dash",
     img: "../images/team/heads/dilip.jpg",
     linkedin: "https://www.linkedin.com/in/dillip-dibyajyoti-dash-b628a7240/",
     facebook: "",
