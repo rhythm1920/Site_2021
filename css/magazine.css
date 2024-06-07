@@ -1,0 +1,23 @@
+.magazine_card_container {
+  max-width: 1200px;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  row-gap: 2rem;
+}
+
+@media only screen and (max-width: 950px){
+  .magazine_card_container{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 650px){
+  .magazine_card_container{
+    grid-template-columns: 1fr;
+  }
+}
+.magazine_card_container>a{
+  max-width: fit-content;
+  place-self: center;
+}
